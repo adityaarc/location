@@ -1,0 +1,127 @@
+*{
+}
+
+body{
+    background: url(p1.jpg);
+}
+
+.headin{
+    margin-top: 5px;
+    background-color:  rgba(243, 247, 3, 0.664);
+    height: 120px;
+}
+.logo{
+    padding-top: 35px;  
+    text-align: center;
+    font-size: 50px;
+    color: rgb(98, 12, 109);
+}
+
+.container{
+    width: 300px;    
+    padding-top: 2px;
+    display: block;
+    margin: 100px;
+    margin-left: 800px;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 3em;
+    font-style: bold;
+    font-family: cursive;
+    color: hsl(32, 100%, 50%);
+}
+
+.notification{
+    background-color: #ece1e1;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    margin-top: 50px;
+    width: 300px;
+    height: 360px;
+    background-color: #0c0c0ca9;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding-top: 15px;
+    margin: 0;
+    color: #f57208;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.temperature-value span{
+    padding-top: 10px;
+    color: #f57208;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding-top: 1px;
+    margin: 0;
+    color: #fd94e7;
+    text-align: center;
+    font-size: 50px;
+    font-variant-caps: all-petite-caps;
+
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding-top: 18px;
+    color: #0bf8ec;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+
